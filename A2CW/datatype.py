@@ -1,0 +1,23 @@
+import datetime
+print(datetime.date.today())
+print(datetime.date(2023,1,1))
+thisdate = datetime.date(2023,4,1)
+print(thisdate)
+print(f"{thisdate:%A/%d/%m/%y}")
+print(f"{thisdate:%a/%d/%m/%y}")
+print(f"{thisdate:%x}")
+mytime = datetime.time(12,15,16)
+print(mytime)
+print(datetime.datetime.now())
+thisdate = datetime.date(2022,12,30)
+duration = datetime.timedelta(days=3)
+print(duration)
+print(thisdate-duration)
+
+today = datetime.date.today()
+birthdate = datetime.date(2004,10,1)
+deltaAge = (today-birthdate)
+print(deltaAge)
+deltaAge = deltaAge.days
+print(deltaAge)
+print("Age= ",deltaAge//365)

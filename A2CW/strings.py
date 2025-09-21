@@ -1,0 +1,23 @@
+first = "Cedar"
+last = "College x"
+new = first + " " + last
+print(new)
+print(len(first))
+print(len(last))
+print(new[0])
+print(new[2:5])
+print(new[1:12:3])
+print("C"in new)
+print("X"in new)
+print(min(new))
+print(max(new))
+print(new.count("C"))
+print(new.count("e"))
+print(new.capitalize())
+print(new.isupper())
+print(new.title())
+print(new.upper())
+print(new.lower())
+print(new.swapcase())
+print(new.rfind("dar"))
+print(new.rfind("uwu"))

@@ -1,0 +1,6 @@
+fileHandle = open("myfile.txt", "r")
+oneLine = fileHandle.readline()
+print(oneLine)
+oneLine = fileHandle.readline()
+print(oneLine)
+fileHandle.close()
